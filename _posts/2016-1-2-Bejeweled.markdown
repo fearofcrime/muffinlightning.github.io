@@ -17,7 +17,7 @@ I'll focus mostly on step 1, because steps 2 and 3 are quite trivial. I mean, th
 
 So obviously, a 2D array will be needed to store the 8x8 board. When doing a screen bot, I like to get a "point or origin", some relative point on the board in which I can use to get the locations of all the pieces. In this case I went with the upper left corner, we can get this point using the handy dandy [Page Ruler Addon for Google Chrome](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn?hl=en) 
 
-![Page Ruler](/assets/bejew1.png)
+![Page Ruler](/assets/bejew1.PNG)
 
 
 Yes I hardcoded it, yes I could have used some sort of pixel/image scanning to find this point, if I ever decide to improve on this bot, I'd definitely change this.
