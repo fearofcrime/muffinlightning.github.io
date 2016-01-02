@@ -5,7 +5,7 @@ date:   2016-1-2
 categories: personalprojects
 ---
 
-Bored Sunday afternoon, so I thought: why not do a Bejeweled bot? Actually what really happened was I was trying to sleep and for some reason I started to think about things to program. When morning came, I was determined to make a bejeweled bot. Specifically for [Popcap's Bejeweled](http://bejeweled.popcap.com/html5/0.9.12.9490/html5/Bejeweled.html). I broke this down into 3 problems:
+Was bored one day, so I thought: why not do a Bejeweled bot? Actually what really happened was I was trying to sleep and for some reason I started to think about things to program. When morning came, I was determined to make a bejeweled bot. Specifically for [Popcap's Bejeweled](http://bejeweled.popcap.com/html5/0.9.12.9490/html5/Bejeweled.html). I broke this down into 3 problems:
 
 1) Input - getting the location and colors of all the pieces
 
@@ -78,7 +78,9 @@ This returns a float[] containing the hue, saturation, and brightness.
 
 [I then used this HSL color picker as a reference point](http://hslpicker.com/) and built my if statements based on this. Being able to check for brightness/saturation is a huge benefit when trying to identify the color white. I then just built my own ranges of hue values to determine the other colors. Orange/Yellow gave similar values, but they were different enough to work with.
 
-This post is getting quite long so I will leave you with the final product:
+Now that we have the color values, the majority of the work is done. We loop through all the board locations, find matches, and then apply these matches using Java's Robot Class, which is very straightforward. If I ever do another screen-based bot, I'll be sure to focus more on the other aspects next time around, but this step is usually the most annoying so I thought I would write about it :)
+
+This post is getting quite long so I will leave you with the final product. 
 
 {::nomarkdown}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hOTplw7yuuM" frameborder="0" allowfullscreen></iframe>
