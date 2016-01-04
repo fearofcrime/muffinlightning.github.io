@@ -76,16 +76,17 @@ Color.RGBtoHSB(r, g, b, hsb);
 
 This returns a float[] containing the hue, saturation, and brightness.
 
-[I then used this HSL color picker as a reference point](http://hslpicker.com/) and built my if statements based on this. Being able to check for brightness/saturation is a huge benefit when trying to identify the color white. I then just built my own ranges of hue values to determine the other colors. Orange/Yellow gave similar values, but they were different enough to work with.
+[I then used this HSL color picker as a reference point](http://hslpicker.com/) and built my if statements based on this. Being able to check for brightness/saturation is a huge benefit when trying to identify the color white. I then just built my own ranges of hue values to determine the other colors. Orange/Yellow gave similar values, but they were different enough to work with. I'm quite happy with the accuracy of it:
 
-Now that we have the color values, the majority of the work is done. We loop through all the board locations, find matches, and then apply these matches using Java's Robot Class, which is very straightforward. If I ever do another screen-based bot, I'll be sure to focus more on the other aspects next time around, but this step is usually the most annoying so I thought I would write about it :)
+![Color Acc](/assets/bejew3.png)
 
-This post is getting quite long so I will leave you with the final product. 
 
+Now that we have the color values, the majority of the work is done. We loop through all the board locations, find matches, and then apply these matches using Java's Robot Class (I will definitely cover this class in a later post), which is very straightforward. If I ever do another screen-based bot, I'll be sure to focus more on the other aspects next time around, but this post is already getting long enough! I leave you with the final product:
+ 
 {::nomarkdown}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hOTplw7yuuM" frameborder="0" allowfullscreen></iframe>
 {:/nomarkdown}
 
-It's far from perfect, as it takes screenshots of the board to determine the pieces, and sometimes it will take these screenshots as the gems are still falling, which obviously throws off the colors. Also, the fiery gems still throws things off a bit. Not too shabby for a day's work though! I'm not sure if I will continue to work on it, but I might work on a Java library to make color identification easier for the purposes of making screen bots.
+It's far from perfect, as it takes screenshots of the board to determine the pieces, and sometimes it will take these screenshots as the gems are still falling, which obviously throws off the colors. Also, the fiery gems still throws things off a bit. Not too shabby for a day's work though! I'm not sure if I will continue to work on it, but I might work on a Java library to make color identification easier for the purposes of making screen bots. So expect a post on that when it's complete.
 
-Please ignore my friend complaining about NCIX :D
+Please ignore my friend complaining about NCIX :).
