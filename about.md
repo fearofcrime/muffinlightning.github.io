@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi. I'm a 4th year Computer Science student currently studying at Dalhousie University. This blog was made so I could write about the interesting challenges and projects that I come across during my learning experience. This blog will likely be a combination of side projects + programming problem commentary and whatever else I might feel like writing about. You can expect the following topics on my blog:
+Hi. I'm a 4th year Computer Science student currently studying at Dalhousie University. My hobbies include video games, sports (where are my Dallas Stars fans at??), and of course programming, which will be the main focus of this blog. I created this so I could write about the interesting challenges and projects that I come across during my learning experience. This blog will likely be a combination of side projects + programming problem commentary and whatever else I might feel like writing about. You can expect the following topics on my blog:
 
 - Programming commentary on interesting short problems
 - Side projects
