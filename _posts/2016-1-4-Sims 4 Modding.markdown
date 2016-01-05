@@ -13,23 +13,23 @@ The game we will be modding is The Sims 4. If you haven't heard of the Sims, I d
 
 This can be done by editing the game's .xml files. These files however aren't readily available to you. They must first be extracted from the game's binaries. I'm not about reinventing the wheel, so we will use the [Sims 4 XML Extractor](http://modthesims.info/t/534316). We target the Sims 4 installation folder and extract the XML files, and then you will end up with this mess:
 
-![The Sims 4](/assets/sims2.png)
+![The Sims 4](/assets/sims2.PNG)
 
 And inside the sub folders:
 
-![The Sims 4](/assets/sims.png)
+![The Sims 4](/assets/sims.PNG)
 
 So, what do we do with this garbage? We use Windows' search tool. I just searched *fight*. When your search completes, you will see a file called **S4_E882D22F_00000000_000000000000661A.xml**. It seems to be about what we're looking for. Let's open it up. Now honestly, I have no idea about the developer's XML naming conventions, but it doesn't really matter. After a quick skim, I found this:
 
-![The Sims 4](/assets/sims3.png)
+![The Sims 4](/assets/sims3.PNG)
 
 Seems to be what we're looking for, this is what's stopping Teens and Pregnant people(oh god I sound horrible..) from fighting one another. So we can delete this entries.
 
-![The Sims 4](/assets/sims4.png)
+![The Sims 4](/assets/sims4.PNG)
 
 Oh and this is what's stopping Sims who are getting married from fighting one another. We'll remove that too.
 
-![The Sims 4](/assets/sims5.png)
+![The Sims 4](/assets/sims5.PNG)
 
 What? Sims need to have met each other to fight one another? NONSENSE. Random violence ftw! We'll 86 that.
 
