@@ -23,7 +23,7 @@ So, what do we do with this garbage? We use Windows' search tool. I just searche
 
 ![The Sims 4](/assets/sims3.PNG)
 
-Seems to be what we're looking for, this is what's stopping Teens and Pregnant people(oh god I sound horrible..) from fighting one another. So we can delete this entries.
+Seems to be what we're looking for, this is what's stopping Teens and Pregnant people(oh god I sound horrible..) from fighting one another. So we can delete these entries.
 
 ![The Sims 4](/assets/sims4.PNG)
 
