@@ -43,13 +43,14 @@ public class CreateGroups {
 Our program needs to return the total number of students that have to be reassigned. Students need to be reassigned into different schedules IF:
 
 1) The schedule they are in is over the maximum, **maxSize**.
+
 2) There exists another schedule in which there aren't enough students to satisfy the minimum size, **minSize** 
 
 Alright, but we can't simply just add 1) and 2) together and call it a day. That wouldn't work because we can take students from an overfilled class and move them into an underfilled class, so it's not quite as simple as 1) + 2). Actually, it will be the maximum of 1 and 2. It makes sense if you think about it. 
 
 Okay, so getting the total number of students sounds helpful, so let's make a variable, *totalStudents*, and add to it as we iterate through the array. In addition, I'll also store the number of students in the current schedule. We can use this to calculate our 1) and 2) I mentioned earlier. To clarify:
 
-- If the size of the schdule is **greater than the  maximum size**, then we calculate the difference (which will be how many students need to be removed from this specific schedule)
+- If the size of the schedule is **greater than the  maximum size**, then we calculate the difference (which will be how many students need to be removed from this specific schedule)
 
 - If the size of the schedule is **less than the minimum size**, then we can also calculate the difference (which will be how many students need to be added into this specific schedule).
 
