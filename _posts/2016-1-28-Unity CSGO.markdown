@@ -5,7 +5,7 @@ date:   2016-1-28
 categories: sideprojects
 ---
 
-![unity](/assets/csgo2.jpeg)
+![unity](/assets/csgo2.jpg)
 
 Haven't made a blog post in awhile, as I've been busy with both school and interviewing. Today I will be talking about a project I helped develop last summer, which has since then flourished and since then become a very successful piece of software. While I no longer have any affiliation to the project, I did spend an entire summer co-developing it. Here's how it all started.
 
