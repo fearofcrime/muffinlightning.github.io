@@ -23,7 +23,7 @@ There were many concepts P described that I had very little knowledge of, such a
 -   the source sdk
 -   memory editing
 
-Needless to say, I was intrigued. I saw this as an opportunity to *learn*. P said he wanted to improve on the program, and that he had a couple friends who were interested in building upon his project. At that point, I was on-board.
+Needless to say, I was intrigued. P said he wanted to improve on the program, and that he had a couple friends who were interested in building upon his project. I saw this as an opportunity to *learn*, and to collaborate with other developers across the country. If nothing else, I was certain that they could teach me a thing or tow. At that point, I was on-board.
 
 ### Development
 
