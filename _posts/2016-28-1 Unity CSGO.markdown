@@ -5,7 +5,7 @@ date:   2016-1-28
 categories: sideprojects
 ---
 
-![unity](assets/csgo2.png)
+![unity](assets/csgo2.PNG)
 
 Haven't made a blog post in awhile, as I've been busy with both school and interviewing. Today I will be talking about a project I helped develop last summer, which has since then flourished and since then become a very successful piece of software. While I no longer have any affiliation to the project, I did spend an entire summer co-developing it. Here's how it all started.
 
@@ -79,7 +79,7 @@ How convenient...I'm not kidding, you can find them being used [on the Source SD
 
 Putting everything together, you end up with an ESP:
 
-![csgo](assets/csgo.png)
+![csgo](assets/csgo.PNG)
 
 ### Departure
 
