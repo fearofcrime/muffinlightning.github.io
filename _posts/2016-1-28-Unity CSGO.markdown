@@ -72,6 +72,7 @@ struct MyPlayer_t
 Once we had all the info we needed, it was just a matter of using this information and drawing to the screen. Now, drawing can be accomplished in many ways, but the way we did it was to take advantage of the Source SDK. [The Source SDK is actually publically available on GitHub](https://github.com/ValveSoftware/source-sdk-2013). It amazed me that we could just import the Source SDK into our VC++ project and then use its functions.
 
 After combing through the SDK a bit, we found a a couple neat functions:
+
 - DrawSetColor()
 - DrawFilledRect()
 
