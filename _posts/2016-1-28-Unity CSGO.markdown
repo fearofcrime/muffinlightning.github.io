@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SideProject - Unity CSGO"
+title:  "Side Project - Unity CSGO"
 date:   2016-1-28 
 categories: sideprojects
 ---
@@ -72,14 +72,19 @@ struct MyPlayer_t
 
 Once we had all the info we needed, it was just a matter of using this information and drawing to the screen. Now, drawing can be accomplished in many ways, but the way we did it was to take advantage of the Source SDK. [The Source SDK is actually publically available on GitHub](https://github.com/ValveSoftware/source-sdk-2013). It amazed me that we could just import the Source SDK into our VC++ project and then use its functions.
 
-After combing through the SDK a bit, we found a a couple neat functions:
+After combing through the SDK a bit, we found some neat functions:
 
 - DrawSetColor()
 - DrawFilledRect()
+- DrawBorderBox()
+- DrawSetTextPos(x, y)
+- DrawSetTextColor()
+- DrawPrintText()
 
-How convenient...I'm not kidding, you can find them being used [on the Source SDK wiki](https://developer.valvesoftware.com/wiki/ISurface).
 
-Putting everything together, you end up with an ESP:
+These functions are self explanatory, but how convenient! I'm not kidding, you can find them being used [on the Source SDK wiki](https://developer.valvesoftware.com/wiki/ISurface).
+
+Using the SDK's functions appropriately and putting everything together, you end up with an ESP:
 
 ![csgo](/assets/csgo.PNG)
 
@@ -90,7 +95,7 @@ Once we finished our feature, it was combined into the main program, and the oth
 P however, continued to polish it. He'd update me on Skype about something new he fixed every week. "Okay... cool" I would reply. I wasn't exactly sure why he was spending so much time on something that everyone else had lost interest in. We had achieved our primary goal, which was to learn. And we learned a lot. P asked Kenny and I if we wanted to continue with what we had worked on, and we said no. P wanted to bypass the VAC anticheat and use the program against players. We had NO interest in this.
 
 
-### The birth of UnityHacks, and unethical monetization
+### The birth of UnityHacks, and *unethical monetization*
 
 I'm not exactly sure what happened next, but what I do know is P set up a website for his program and brought on a couple new devs to help maintain it. He also began to monetize the software, breaking Valve's TOS. You can find his software online. While I no longer have access to the code-base, Kenny and I are still disappointed in how our code ended up being used maliciously, even if the current code probably looks nothing like it did nearly a year ago. All I know is, Unity is now a full-fledged, polished piece of software, but it is HIGHLY unethical (in my opinion).
 
