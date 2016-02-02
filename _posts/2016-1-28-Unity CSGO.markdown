@@ -97,7 +97,7 @@ P however, continued to polish it. He'd update me on Skype about something new h
 
 ### The birth of UnityHacks, and *unethical monetization*
 
-![csgo](/assets/csgo3.PNG)
+![csgo](/assets/csgo3.png)
 
 I'm not exactly sure what happened next, but what I do know is P set up a website for his program and brought on a couple new devs to help maintain it. He also began to monetize the software, breaking Valve's TOS. You can find his software online. While I no longer have access to the code-base, Kenny and I are still disappointed in how our code ended up being used maliciously, even if the current code probably looks nothing like it did nearly a year ago. All I know is, Unity is now a full-fledged, polished piece of software, but in my opinion, the monetization is unethical.
 
