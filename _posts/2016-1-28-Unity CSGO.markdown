@@ -31,7 +31,7 @@ Now, at that specific point in time, I had very little experience in software de
 
 Neither Kenny or I had any experience actually programming something of this nature, so development was quite slow, and we had to ask P a lot of questions. Kenny in particular had very little programming experience, but I think this is what got him hooked on software development. I'm not going to go super in-depth in terms of code, but essentially we broke the problem down into a few steps:
 
-We needed:
+To build an ESP, you need the following info:
 
 - User location (XYZ coordinates)
 - Health
@@ -77,7 +77,7 @@ After combing through the SDK a bit, we found some neat functions:
 - DrawSetColor()
 - DrawFilledRect()
 - DrawBorderBox()
-- DrawSetTextPos(x, y)
+- DrawSetTextPos()
 - DrawSetTextColor()
 - DrawPrintText()
 
@@ -92,7 +92,7 @@ Using the SDK's functions appropriately and putting everything together, you end
 
 Once we finished our feature, it was combined into the main program, and the other developers had completed a few other cool features. It was anything but clean. It was quite buggy actually, and would crash seemingly at random, but it worked. At this point Kenny and I were pretty done with the project, it was an interesting learning experience but we had no interest in actually extensively testing and debugging it. The other devs at Berkeley didn't seem particularly interested either, so we left it at that.
 
-P however, continued to polish it. He'd update me on Skype about something new he fixed every week. "Okay... cool" I would reply. I wasn't exactly sure why he was spending so much time on something that everyone else had lost interest in. We had achieved our primary goal, which was to learn. And we learned a lot. P asked Kenny and I if we wanted to continue with what we had worked on, and we said no. P wanted to bypass the VAC anticheat and use the program against players. We had NO interest in this.
+P however, continued to polish it. He'd update me on Skype about something new he fixed every week. I wasn't exactly sure why he was spending so much time on something that everyone else had lost interest in. We had achieved our primary goal, which was to learn. And we learned a lot. P asked Kenny and I if we wanted to continue with what we had worked on, and we said no. P wanted to bypass the VAC anticheat and use the program against players. We had NO interest in this.
 
 
 ### The birth of UnityHacks, and *unethical monetization*
