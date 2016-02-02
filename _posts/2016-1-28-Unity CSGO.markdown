@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Unity CSGO Story"
+title:  "SideProject - Unity CSGO"
 date:   2016-1-28 
 categories: sideprojects
 ---
