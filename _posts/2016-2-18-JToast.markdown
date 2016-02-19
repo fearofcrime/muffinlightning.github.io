@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Side Project - JToast"
+date:   2016-2-19
+categories: sideprojects
+---
+
+![JToast](/assets/jt1.png)
+
+Today I'm going to discuss a project I've been working on for the past month or so on and off. It's a JavaFX project, a library that allows you to easily integrate and create toast notifications into your own programs.
+
+### JavaFX
+So JavaFX is a GUI library for well... Java. It's intended to replace the old guard, Swing. For good reason too, Swing looks like garbage:
+
+![garbage](https://upload.wikimedia.org/wikipedia/commons/c/cc/Gui-widgets.png)
+
+I haven't worked with GUI libraries much, so I figured this would be a good learning experience. I chose JavaFX because:
+
+- bundled, no need to install
+- intended to replace Swing
+- acquired by Oracle
+
+So it makes a lot of sense to use learn and use it over something like Vaadin. Vaadin is garbage. Literal garbage. I'm using it in my Software Engineering class. It's a pain to install, the layout system is finicky, I simply hate it.
+
+I get it, Vaadin for web apps. No Java plugin required! Yeah.... I think I'll just use HTML/CSS + JavaScript/jQuery. Fuck off with Vaadin.
+
+![garbage2](http://zeroturnaround.com/wp-content/uploads/2013/07/Web-frameworks-developer-productivity-report.png)
+
+There's a reason why no one likes you.
+
+
+### Toast Notifications
+
+Toast notifications, yum. 
+
+        {% highlight java %}
+// Create a new JToast
+        String title = "HEY YOU!";
+        String message = "JToast is the coolest toast app ever!";
+        Notification notification = Notifications.SUCCESS;
+
+        JToast tray = new JToast();
+        tray.setTitle(title);
+        tray.setMessage(message);
+        tray.setNotification(notification);
+        tray.showAndWait();
+{% endhighlight %}
+
+It's very simple to integrate/use. Create a JToast object, set a title, message, notification type, and animation(optional). Then run showAndWait().
+
+The structure is as follows:
+
+- *Location.java* is used to get the location of the bottom right corner of the screen to display the notification.
+- *CustomStage.java* uses Java's Rectangle2D class and handles the location/creation of the box itself.
+- *JToast.java* is the main java file. The constructor is found here, this is where the object is created and where the values/parameters are set.
+- *NotificationType.java* and *AnimationType.java* are [enum classes.](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
+- Finally, the files in the *animation* folder are well, for the built-in animation types.
+
+
+
+### Screens
+![JToast2](/assets/jt2.PNG)
+
+![JToast3](/assets/jt3.png)
+
+![JToast3](/assets/jt4.gif)
+
+The project is on my GitHub, check it out and feel free to use the library in your own apps.
+
+
