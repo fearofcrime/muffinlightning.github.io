@@ -65,6 +65,6 @@ The structure is as follows:
 
 ![JToast3](/assets/jt4.gif)
 
-The project is on my GitHub, check it out and feel free to use the library in your own apps.
+The project is on my GitHub, the direct link is [here.](https://github.com/MuffinLightning/JToast) check it out and feel free to use the library in your own apps.
 
 
