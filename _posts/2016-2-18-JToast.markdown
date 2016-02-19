@@ -59,8 +59,10 @@ The structure is as follows:
 
 
 ### Screens
-![JToast2](/assets/jt2.png)
+![JToast2](/assets/jt2.PNG)
+
 ![JToast3](/assets/jt3.png)
+
 ![JToast3](/assets/jt4.gif)
 
 The project is on my GitHub, check it out and feel free to use the library in your own apps.
