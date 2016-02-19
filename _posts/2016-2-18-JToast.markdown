@@ -20,7 +20,7 @@ I haven't worked with GUI libraries much, so I figured this would be a good lear
 - intended to replace Swing
 - acquired by Oracle
 
-So it makes a lot of sense to use learn and use it over something like Vaadin. Vaadin is garbage. Literal garbage. I'm ~~being forced~~ using it in my Software Engineering class. It's a pain to install, the layout system is finicky, I simply hate it.
+So it makes a lot of sense to use learn and use it over something like Vaadin. Vaadin is garbage. Literal garbage. I'm using it in my Software Engineering class. It's a pain to install, the layout system is finicky, I simply hate it.
 
 I get it, Vaadin for web apps. No Java plugin required! Yeah.... I think I'll just use HTML/CSS + JavaScript/jQuery. Fuck off with Vaadin.
 
