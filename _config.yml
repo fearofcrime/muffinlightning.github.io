@@ -9,7 +9,7 @@
 title: Justin Cheung
 email: JS421503@dal.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Hi. I'm a 4th year Computer Science student currently studying at Dalhousie University.
+  Welcome to my blog! I'm a Computer Science student currently studying at Dalhousie University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  muffinlightning
