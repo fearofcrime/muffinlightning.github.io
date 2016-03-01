@@ -34,21 +34,14 @@ String DNAstring = "";
 
 for (int i = 0; i <= length; i++) {
 			for (int j = i; j <= length; j++) {
-					
-				
-				
-			}
-			
 		}
-		
-		
-		
+	}	
 }
 {% endhighlight %}
 
 Inside the loop, we will take the substring with beginIndex = i, and endIndex = j. This ensures that we will obtain every substring possible. Remember that the substrings can be only 1 character. If our given string is TOPBOATER , then this is what will be happening (enjoy my awesome paint rendition of i=0 and i=1): 
 
-![DNA1](assets/dna1.png)
+![DNA1](/assets/dna1.png)
 
 But wait! We don't want EVERY substring, we only want the ones that ONLY have characters A, C, G, and T! Right. So we will need to check for that.
 
@@ -105,6 +98,6 @@ O(n3) OUCH! But before you panic, let's keep in mind that the sequence will cont
 
 MOMENT OF TRUTH!
 
-![DNA2](assets/dna2.png)
+![DNA2](/assets/dna2.png)
 
 eZ
