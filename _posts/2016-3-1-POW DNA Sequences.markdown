@@ -46,7 +46,7 @@ Inside the loop, we will take the substring with beginIndex = i, and endIndex = 
 But wait! We don't want EVERY substring, we only want the ones that ONLY have characters A, C, G, and T! Right. So we will need to check for that.
 
 - My initial thought was to use .contains() , but this has problems. We can check if it contains ACGT, but there might be a B or an X or something else somewhere inside which will throw us off.
-- We could do something like !contains.(everyOtherCharacter). Yes, yes we could. That would take awhile to type.
+- We could do something like ! .contains(everyOtherCharacter). Yes, yes we could. That would take awhile to type.
 - We could use REGEX! Probably the best and most simple way of doing this. Hey, I hate Regex as much as the next person but you have to admit it has its uses.
 
 Last step is to just compare and see if the size of the DNA sequence is largest. Our nested if statements will look like:
