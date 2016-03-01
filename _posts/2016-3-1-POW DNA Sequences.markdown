@@ -65,31 +65,32 @@ Last step is to just compare and see if the size of the DNA sequence is largest.
 Putting it all together:
 
 {% highlight java %}
-	public int longestDNASequence(String sequence) {
-		
-		int length = sequence.length();
-		int longestDNA = 0;
-		String DNAstring = "";
+ public int longestDNASequence(String sequence) {
 
-		for (int i = 0; i <= length; i++) {
-			for (int j = i; j <= length; j++) {
-					
-				if (sequence.substring(i, j).matches("[ACGT]+")) {
-					DNAstring = sequence.substring(i, j);
-					if (DNAstring.length() > longestDNA) {
-						longestDNA = DNAstring.length();
-					}
-					
-				}
-				
-			}
-			
-		}
-		
-		
-		return longestDNA;
-		
-	}
+  int length = sequence.length();
+  int longestDNA = 0;
+  String DNAstring = "";
+
+  for (int i = 0; i <= length; i++) {
+   for (int j = i; j <= length; j++) {
+
+    if (sequence.substring(i, j).matches("[ACGT]+")) {
+     DNAstring = sequence.substring(i, j);
+     if (DNAstring.length() > longestDNA) {
+      longestDNA = DNAstring.length();
+     }
+
+    }
+
+   }
+
+  }
+
+
+  return longestDNA;
+
+ }
+
 {% endhighlight %}
 
 O(n3) OUCH! But before you panic, let's keep in mind that the sequence will contain between 1 and 50 characters, inclusive. Still...
