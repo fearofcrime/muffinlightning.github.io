@@ -111,6 +111,8 @@ Putting it all together:
 	}
 {% endhighlight %}
 
+O(n3) OUCH! But before you panic, let's keep in mind that the sequence will contain between 1 and 50 characters, inclusive. Still...
+
 ### Testing
 
 MOMENT OF TRUTH!
