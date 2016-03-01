@@ -8,19 +8,7 @@ categories: programmingproblems
 Haven't posted a problem in awhile, so here we go. Today's problem wasn't very difficult, but optimizing it may prove challenging.
 
 ### Problem Statement
->For the purposes of this problem, a DNA sequence is a string consisting of the letters A, C, G, and T. 
-
-
-
-You have been hired by researchers at TopBiologist to help them with some programming tasks. The researchers have found a sequence of uppercase letters, which is given to you in the String sequence. They have asked you to write a program which find the length of the longest DNA sequence that is a substring of sequence. 
-
-
-
-A substring can be obtained from sequence by deleting some (possibly zero) characters from the beginning or end. For example, suppose sequence is the string "TOPBOATER". Then "TOP", "PBOA", "T", and "AT" are some examples of substrings of sequence. Of these examples, "T" and "AT" are DNA sequences. The answer to the problem would be 2 because "AT" is the longest such sequence and its length is 2. 
-
-
-
-Please find and return the length of the longest DNA sequence that is a substring of sequence.
+>For the purposes of this problem, a DNA sequence is a string consisting of the letters A, C, G, and T. You have been hired by researchers at TopBiologist to help them with some programming tasks. The researchers have found a sequence of uppercase letters, which is given to you in the String sequence. They have asked you to write a program which find the length of the longest DNA sequence that is a substring of sequence. A substring can be obtained from sequence by deleting some (possibly zero) characters from the beginning or end. For example, suppose sequence is the string "TOPBOATER". Then "TOP", "PBOA", "T", and "AT" are some examples of substrings of sequence. Of these examples, "T" and "AT" are DNA sequences. The answer to the problem would be 2 because "AT" is the longest such sequence and its length is 2. Please find and return the length of the longest DNA sequence that is a substring of sequence.
 
 ### Constraints
 -	sequence will contain between 1 and 50 characters, inclusive.
