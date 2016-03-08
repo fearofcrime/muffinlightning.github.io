@@ -1,9 +1,3 @@
----
-layout: post
-title:  "Side Project - JToast"
-date:   2016-2-19
-categories: sideprojects
----
 
 ![JToast](/assets/jt1.png)
 
